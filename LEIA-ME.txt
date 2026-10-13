@@ -1,0 +1,40 @@
+REM​​ANO CENTRO AUTOMOTIVO — SITE HTML COMPLETO
+
+INSTALAÇÃO NO CPANEL
+1. Faça uma cópia de segurança dos arquivos atuais, caso já exista um site.
+2. Envie este ZIP para public_html (ou para a pasta do domínio desejado).
+3. Extraia o ZIP. index.html e a pasta assets devem ficar diretamente na pasta do site.
+4. Se houver outro index.php ou index.htm, renomeie o arquivo antigo após o backup para evitar que ele tenha prioridade sobre o novo index.html.
+5. Acesse o domínio usando HTTPS. Caso uma versão antiga apareça, limpe o cache do navegador e do Cloudflare.
+
+Não é necessário instalar pacotes. Não há PHP, SQL ou banco de dados.
+
+CONTEÚDO
+- index.html: conteúdo completo, contatos, mapa, SEO e dados estruturados.
+- assets/css/style.css: layout de computador, tablet e celular.
+- assets/js/main.js: menu mobile, galeria ampliável e formulário do WhatsApp.
+- assets/imagens/: 13 fotografias ilustrativas otimizadas em WebP, logo e favicon.
+
+CONTATO UTILIZADO
+WhatsApp: (45) 99905-3112 / 5545999053112
+Endereço: Rua Vicente Machado, 1032 – Centro, Cascavel/PR.
+Instagram: @remano.autocenter
+
+O formulário prepara a mensagem e abre o WhatsApp. O visitante revisa e toca em enviar no próprio WhatsApp. O site não salva os dados, não envia e-mail e não confirma agendamentos automaticamente.
+Para alterar o telefone, substitua 5545999053112 em index.html e assets/js/main.js, e altere a apresentação (45) 99905-3112 no HTML.
+
+IMAGENS
+As 13 fotos são ilustrativas, criadas para esta proposta; não representam fotos documentais da equipe ou da estrutura real da Remano. Cada arquivo tem nome descritivo e pode ser substituído por uma foto própria com o mesmo nome.
+A logo foi recriada em PNG com fundo transparente e aplicada no cabeçalho e no rodapé. O favicon R foi mantido.
+Redes no rodapé: Instagram, Facebook, YouTube e WhatsApp. O endereço do canal do YouTube não foi informado; o ícone está sinalizado como canal em breve, sem link. Para ativá-lo, substitua o span social-pending por um link ao canal oficial.
+Crédito no rodapé: Site desenvolvido pela agência Neo Arte, com link para https://neoartepub.com.br/.
+
+RECURSOS EXTERNOS
+O mapa utiliza Google Maps incorporado por endereço; depende de internet e da disponibilidade do Google. O botão Como chegar também abre a pesquisa do endereço no Google Maps. WhatsApp e Instagram abrem seus respectivos serviços. CSS, JavaScript, ícones e imagens são locais. Não há bibliotecas ou fontes externas.
+
+VERIFICAÇÃO
+Sintaxe JavaScript, referências de arquivos, imagens e estrutura HTML conferidas. Fluxos de formulário, menu e galeria verificados com simulação de DOM. Não foi possível executar conferência visual no navegador neste ambiente. Depois de publicar, confira o mapa, o WhatsApp e o layout no computador e no celular.
+
+ATUALIZAÇÃO DOS ÍCONES
+YouTube com a mesma cor e efeito hover das demais redes; continua sem link até informar o canal oficial.
+Ícones de atendimento com movimentos leves alternados e destaque ao passar o mouse. As animações respeitam a preferência de movimento reduzido do dispositivo.
